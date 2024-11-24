@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <!-- ------------------------------- header section ----------------------------   -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="flogo.jpeg" alt="logo" class="logo"> -->
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">My Certificates</a></li>
+                    <li><a href="#portfolio">My Work</li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+                <i class="fa fa-bars"></i>
+            </nav>
+            
+            
+            <div class="header-text">
+                <p>Front End Web Developer</p>
+                <h2>Hi, I'm <span>KUMAR KARTIK</span> Kumar</h2>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------- about section ----------------------------   -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="profile.jpeg" alt="profile" class="zoom-in-out-box2">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is KUMAR KARTIK,from Bihar India and Currently I am a MCA student from Computer Application branch in KIET Group of Institutions and I want to be front end web developer</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End Development</span><br>Web designing using Angular,Reactjs,HTML,CSS and Javascript</li>
+                            <li><span>Java</span><br>Java for DSA</li>
+                            <li><span>SQL</span><br>Mysql database language</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>Web Development Intership</li>
+                            <li><span>2023</span><br>Web Development Intership at Oasis Infobytes</li>
+                            <li><span>2022</span><br>Data Structure Course/Training at Intershala</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Currently am in 1st</span><br>Persuing MCA from KIET Group Of Institutions</li>
+                            <li><span>2020</span><br>12th from Commerce College of Patna with 70.6%</li>
+                            <li><span>2018</span><br>10th from Himalauan School Patna with 90%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------- Certificate section ----------------------------   -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Angular</h2>
+                    <img src="angular.PNG" alt="intership image" width="230px"
+                    height="200px">
+                </div>
+
+                <div>
+                    <h2>Java</h2>
+                    <img src="java.jpeg" alt="intership image" width="230px"
+                    height="200px">
+                </div>
+
+                <div>
+                    <h2>AWS</h2>
+                    <img src="aws.jpeg" alt="intership image" width="230px"
+                    height="200px">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------------- Portfolio section ----------------------------   -->  
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img  style="height: 180px;" src="freelance.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Fiverr Clone</h3>
+                        <p>I have created Fiverr clone page.</p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="work2.PNG" alt="">
+                    <div class="layer">
+                        <h3>Easy Study Website</h3>
+                        <p>I have created Easy Study Website for students who want to learn different coding related important courses like python, java, data structure etc, so all their study material is available here on this website which is super easy to understand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------------- Contact Me section ----------------------------   --> 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>k.kartik4176@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9570578335</p>
+                    <div class="social-icon">
+                        <a href="instagram.com/bharatpaatidar96"><i class="fab-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/kumar-kartik7198"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/channel/UCy2Ptw7dJzw5q8m3qEMNk5g"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download target="_blank" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2" class="popout">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html> 
+
+
+
+
+
+
+
+<!-- https://script.google.com/macros/s/AKfycby5OURRvfHFXby_xDdC4_o865S44OyMgoG4I4QIz__z14ihoS0VkHhANPnV1l1p3jtg/exec -->
